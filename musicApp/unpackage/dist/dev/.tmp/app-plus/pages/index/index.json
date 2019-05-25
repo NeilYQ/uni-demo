@@ -1,0 +1,17 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "Music App",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "menu",
+        "float": "left"
+      },
+      {
+        "type": "none",
+        "text": "",
+        "fontSrc": "/static/uni.ttf"
+      }
+    ]
+  }
+}

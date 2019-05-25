@@ -1,0 +1,10 @@
+{
+  "usingComponents": {},
+  "titleNView": {
+    "searchInput": {
+      "placeholder": "搜索歌曲",
+      "autoFocus": "true",
+      "align": "left"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<import src="/components/uni-drawer/uni-drawer.vue.wxml" />
+<import src="/components/uni-list/uni-list.vue.wxml" />
+<import src="/components/uni-list-item/uni-list-item.vue.wxml" />
+<import src="/components/player/player.vue.wxml" />
+<import src="/components/uni-tag/uni-tag.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/uni-badge/uni-badge.vue.wxml" />
+
+<template name="M85042c64-default-85042c64-3"><template bindtap="handleProxy" title="历史记录" note show-arrow="false" data-eventid="{{'85042c64-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'85042c64-1'],$root}}" is="179d3cbe"></template><template bindtap="handleProxy" title="下载管理" note show-arrow="false" data-eventid="{{'85042c64-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'85042c64-2'],$root}}" is="179d3cbe"></template></template>
+
+<template name="M85042c64-default-85042c64-4"><template data="{{...$root['0'], ...$root[$kk+'85042c64-3'],$root, $slotdefault:'M85042c64-default-85042c64-3'}}" is="3f90e012"></template></template>
+

@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Music App",
+				"titleNView": {
+					"buttons": [
+						{
+							"type": "menu",
+							"float": "left"
+						},
+						{
+							"type": "none",
+							"text": "\ue466",
+							"fontSrc": "/static/uni.ttf"
+						}
+					]
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"titleNView": {
+					"searchInput": {
+						"placeholder": "搜索歌曲",
+						"autoFocus": "true",
+						"align": "left"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/music/music",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" : {
+				"navigationBarTitleText": "历史记录",
+				"animationType": "fade-in",
+				"animationDuration": 300
+			}
+        }
+        ,{
+            "path" : "pages/download/download",
+            "style" : {
+				"navigationBarTitleText": "下载管理",
+				"animationType": "fade-in",
+				"animationDuration": 300
+			}
+        },
+		{
+			"path":"pages/playerdetail/playerdetail",
+			"style": {
+				"navigationBarTitleText": "歌单",
+				"titleNView": {
+					// "type": "transparent"
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
